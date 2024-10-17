@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		table{
+			width: 500px;
+		}
+		table,th,tr,td{
+					border: 1px solid black;
+					border-collapse: collapse;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<table>
+			<tr>
+				<th colspan="2">Fill the below form</th>
+
+			</tr>
+			<tr>
+				<td> <label for="name">Name</label> </td>
+				<td> <input type="text" name="Name" id="name"> </td>
+			</tr>
+			<tr>
+				<td> <label for="Password">Password</label> </td>
+				<td> <input type="Password" name="Password" id="Password"> </td> </td>
+			</tr>
+			<tr>
+				<td>  <label for="Feedback">Feedback</label> </td>
+				<td><textarea id="Feedback" cols="30" rows="5"></textarea></td>
+			</tr>
+			<tr>
+				<td>
+				 <label>Gender</label>
+				</td>
+				<td>
+					<input type="radio" name="Gender" id="male" value="male">
+					<label for="male">Male</label>
+					<input type="radio" name="Gender" id="female" value="female">
+					<label for="female">Female</label>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<label>Subject</label>
+
+				</td>
+				<td>
+					<input type="checkbox" name="Subject" id="web" value="web">
+					<label for="web">Web</label>
+					<input type="checkbox" name="Subject" id="Graphic" value="Graphic">
+					<label for="Graphic">Graphic</label>
+					<input type="checkbox" name="Subject" id="Java" value="Java">
+					<label for="Java">Java</label>
+					<input type="checkbox" name="Subject" id="javascript" value="javascript">
+					<label for="javascript">Javascript</label>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<button type="Submit">Submit</button>
+					<button type="Reset">Reset </button>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
